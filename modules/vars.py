@@ -3,18 +3,18 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "22483159"))
-API_HASH = environ.get("API_HASH", "0a6013ef01cc98c87f94500a59ecd777")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8173008279:AAHJpQsVOeM_cAvPcYjC0RUsUVHEIDGx9FI")
+API_ID = int(environ.get("API_ID", "23673651"))
+API_HASH = environ.get("API_HASH", "f032bfa12ee46e1283f6fb23cfca5c6b")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8386519242:AAG-Yv5lAZTmOmP7dF-hwA3MwZE7FtW4KhM")
 
-OWNER = int(environ.get("OWNER", "8277882193"))
-CREDIT = environ.get("CREDIT", "@Genius_Hub_Official_01⚡")
+OWNER = int(environ.get("OWNER", "6677821706"))
+CREDIT = environ.get("CREDIT", "@boss⚡")
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
-TOTAL_USER = os.environ.get('TOTAL_USERS', '8277882193').split(',')
+TOTAL_USER = os.environ.get('TOTAL_USERS', '6677821706').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
 
-AUTH_USER = os.environ.get('AUTH_USERS', '8277882193').split(',')
+AUTH_USER = os.environ.get('AUTH_USERS', '6677821706').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
 if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
